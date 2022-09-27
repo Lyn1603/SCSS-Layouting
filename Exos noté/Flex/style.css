@@ -6,14 +6,12 @@
 
 
 section{
+    display: flex;
     height: 100vh;
     width: 100%;
-    margin: 0 auto;
     background-color: gray;
 
 }
-
-
 
 
 .g{
@@ -21,7 +19,9 @@ section{
     height: 100vh;
     border: 1px solid black;
 }
+
 .d{
+    display: flex;
     width: calc((100%/7)*3);
     height: 100vh;
     border: 1px solid black;
@@ -32,14 +32,34 @@ display: flex;
 
 }
 
-
 .col2{
     display: flex;
 }
 
 
+.col3{
+    display: flex;
+}
+
+
+.col4{
+    display: flex;
+}
+
+
+.col5{
+    display: flex;
+}
+
+cd 
 .minicol1{
     width: 50%;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.minicol1a{
+    width: 100%;
     height: 20vh;
     border: 1px solid black;
 }
@@ -51,18 +71,36 @@ display: flex;
 }
 
 .minicol2a{
-    width: 30%;
+    width: 25%;
     height: 20vh;
     border: 1px solid black;
 }
 
 .minicol3{
+    width: 50%;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+.minicol4{
     width: 100%;
     height: 20vh;
     border: 1px solid black;
 }
 
 
+.minicol5{
+    width: 40%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+
+.minicol6{
+    width: 40%;
+    height: 20vh;
+    border: 1px solid black;
+}
 
 
 
