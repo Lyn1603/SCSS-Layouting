@@ -14,19 +14,57 @@ section{
 }
 
 
-div{
+
+
+.g{
+    width: calc((100%/7)*4);
+    height: 100vh;
+    border: 1px solid black;
+}
+.d{
+    width: calc((100%/7)*3);
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.col1{
+display: flex;
+
+}
+
+
+.col2{
+    display: flex;
+}
+
+
+.minicol1{
+    width: 50%;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.minicol2{
+    width: 75%;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.minicol2a{
+    width: 30%;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.minicol3{
+    width: 100%;
+    height: 20vh;
     border: 1px solid black;
 }
 
 
 
 
-.col1{
-
-    width: 20%;
-    height: 20vh;
-
-}
 
 /* +++++++++++
 
