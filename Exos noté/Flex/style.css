@@ -46,12 +46,23 @@ display: flex;
     display: flex;
 }
 
-
 .col5{
-    display: flex;
+    width: calc((100%/3));
+    height: 100vh;
+    border: 1px solid black;
 }
 
-cd 
+.col6{
+    width: calc((100%/3)*2);
+    display: block;
+}
+
+.col7{
+    display: flex;
+
+}
+
+ 
 .minicol1{
     width: 50%;
     height: 20vh;
@@ -89,18 +100,27 @@ cd
 }
 
 
-.minicol5{
-    width: 40%;
-    height: 100vh;
-    border: 1px solid black;
-}
-
 
 .minicol6{
-    width: 40%;
-    height: 20vh;
+    width: 100%;
+    height: 40vh;
     border: 1px solid black;
 }
+
+
+.minicol7{
+    width: 50%;
+    height: 60vh;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
 
 
 
