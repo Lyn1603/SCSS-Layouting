@@ -13,17 +13,23 @@ div {
 }
 
 section {
-
+    display: grid;
+    grid-auto-flow: dense; /** ajuste la densité des grids**/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .blue {
     background-color: aqua;
+    grid-column: 3 / -1;
+    /* ou bien grid-column: 3 /  span 1;*/
 }
 
 .red {
     background-color: red;
+    grid-column: 1;
 }
 
 .green {
     background-color: greenyellow;
+    grid-column: 2;
 }
