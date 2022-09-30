@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 2px solid rebeccapurple;
+    background: burlywood;
+    height: 100px;
+}
+
+section {
+
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: greenyellow;
+}
