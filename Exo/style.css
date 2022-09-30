@@ -31,6 +31,34 @@ img + img{
     margin: 0 auto;
 }
 
+
+.promo{
+    padding: 16px;
+    margin: 60px;
+    width: 400px;
+    border: 1PX solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo p, .promo del{
+    font-size: 16px;
+}
+
+
+.promo::before{
+    content: "en promo";
+    position: absolute;
+    background: coral;
+    color: white;
+    font-size: 14px;
+    right:-1px;
+    top: -29px;
+    padding: 7px;
+
+}
+
 .sticky{
     padding: 20px;
     position: sticky;
@@ -48,7 +76,7 @@ img + img{
     height: 200px;
     background-color: deeppink;
     position: absolute;
-    top: 0;
+    bottom: 0;
 }
 
 .back-top{
