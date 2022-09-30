@@ -7,33 +7,32 @@
 }
 
 
-
-.grid{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas: "menu menu"
-                         "articles slidebar"
-                        "footer footer";
-}
-
-main{
-    height: 100vh;
-    background-color: bisque;
-}
-
-header {
-    background-color: aquamarine;
-    height: 150px;
-    grid-area: menu;
-}  
-
-
-aside{
-    height: 100vh;
-    background-color: cadetblue;
-}
-
-footer{
+img{
+    border: 15px solid pink;
+    border-radius: 300px;
     height: 400px;
-    background-color: #121212;
+    width: 400px;
+    object-fit: cover;
+}
+
+img + img{
+    position: relative;
+    left: -100px;
+    z-index: -1;
+}
+
+.box1{
+    height: 60vh;
+    background-color: coral;
+}
+
+.box2{
+    height: 60vh;
+    background-color: darkolivegreen;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
 }
