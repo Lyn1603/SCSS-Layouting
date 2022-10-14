@@ -1,0 +1,69 @@
+Bibliographie SCSS :
+
+2 bouquins: flex grid
+
+Lorem picsum
+
+Site CSS trick: a complete guide to flexbox/grid
+
+Ytb : Kevin Powell 
+
+
+
+RACCOURCI EMNET HTML :
+
+nav>img+ul>li.item$*5>a
+
+
+section>(div>h1+p*2)+(div>img+p)
+
+> = mettre dedans 
+
++ = mettre en dessous
+
+* = multiplier l'élément
+
+() = grouper
+
+$ = chiffre incrémenté
+
+.class = ajouter class
+
+#id = ajouter id 
+
+
+HERITAGE :
+
+> : Cible l'enfant direct 
+
++ : Cible le 1er élément 
+
+~ : Clible tous les éléments qui suivent 
+
+
+COMMANDES POWERSHELL SCSS :
+
+sass --watch style.css:main.css
+
+
+RENDU :
+
+deadline: Samedi 22 octobre 
+
+Faire un repo git  public
+
+Sujet : faire un site qui parle d'un truc sur Paris ou sa région (monument, place, ...)
+
+!!!! : A renseihner sur un gdoc , pas 2fois le même sujet.
+
+Exigences: --> Usage flex, grid (les 2)
+		--> Usage des positions
+		--> usage du scss
+		--> Responsive
+
+Bonus: 
+	--> En s'appuyant sur le site sassguideliner, faire une architecture 7-1 sera conçue avec @use et @forward au lieu de @import.
+
+
+
+

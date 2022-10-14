@@ -1,0 +1,87 @@
+@use "mixins";
+$background-light:rgb(224, 224, 224);
+$background-dark:rgb(41, 41, 41);
+$color-theme-light:#000;
+$color-theme-dark:#fff;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+
+@for $cookie from 1 through 6{
+    .padding-top-#{cookie}{
+        padding-top: #{cookie}rem;
+    }
+}
+
+
+$spaces: "small" 10px,"medium" 20px, "large" 30px;
+@each $name, $space in $spaces {
+    padding-bottom: -#{$name}{
+        padding-bottom: $space;
+    }    
+}
+
+
+h2{
+    font-size: 2.2rem;
+    margin-bottom: 1em;
+
+    @include mixins.breakpoint(900px){
+        font-size: 1.6rem;      
+    }
+
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.pres{
+    background-color: $background-light;
+    color: $color-theme-light;
+    padding: 6rem 0;
+
+
+    body.dark & {
+
+        background-color: $background-dark;
+        color: $color-theme-dark;
+
+    }
+
+    .container{
+        min-width: 1100px;
+        margin: 0 auto;
+        @include mixins.flexcenter();
+      
+    }
+}
+
+.button{
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 1em 2em;
+    color: $color-theme-light;
+    text-decoration: none;
+    border-radius: 1em;
+    background-color: aliceblue;
+
+
+    &--valid{
+        @extend .button;
+        background-color:green;
+    }
+}
+
+
